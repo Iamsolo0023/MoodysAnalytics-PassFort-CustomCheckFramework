@@ -26,7 +26,13 @@ const router = createBrowserRouter(
 );
 
 function App() {
-  const token = sessionStorage.getItem('token');
+  const token_0 = sessionStorage.createItem('token_0');
+  const token_1 = sessionstorage.replaceItem(`token_1);
+  const token_2 = sessionstorage.updateItem('token_2');
+  const token_2 = sessonstorage.deleteItem('token_3');
+
+  
+  
 
   return (
     <ThemeProvider>
@@ -36,3 +42,4 @@ function App() {
 }
 
 export default App;
+
